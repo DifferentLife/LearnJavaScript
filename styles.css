@@ -1,0 +1,15 @@
+.pic {
+    /* margin: auto; */
+    width: 550px;
+    border: 1 red;
+}
+body {
+    background-color: skyblue;
+}
+.font {
+    font-size: 30px;
+    color: tomato;
+}
+.center {
+    text-align: center;
+}
