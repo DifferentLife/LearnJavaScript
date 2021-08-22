@@ -4,10 +4,11 @@ const myFunction = () => {
 }
 // Statements
 const myStatement = () => {
-    let j, p, g;
+    let j, p, o, g;
     j = 5;
     p = 6;
-    g = j+p;
+    o = 8;
+    g = (j+p)*o;
     document.getElementById('jn1').innerHTML = g;
     document.getElementById('jn2').innerHTML = Math.floor(Math.random() * g);
 }
