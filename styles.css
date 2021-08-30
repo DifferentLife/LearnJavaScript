@@ -4,7 +4,8 @@
     border: 1 red;
 }
 body {
-    background-color: skyblue;
+    background-color: #87ceeb;
+    text-align: center;
 }
 .font {
     font-size: 30px;

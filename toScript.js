@@ -15,12 +15,11 @@ const myStatement = () => {
 //Syntax
 const mySyntax = () => {
     const num1=7;
-    let num2=4, str="Correct.";
-    var result;
-    var card_Number, card_number;
-    card_Number = 16629;
-    card_number = 16357;
-    result = ((num1+num2)*5)/6
-    document.getElementById('jn3').innerHTML = result +" "+ str;
-    document.getElementById('jn4').innerHTML = card_Number +" "+ card_number;
+    let num2=4, str="Correct.", car_Name = "Toyota";
+    var result, card_Number = 16629, card_number = 16357, carName = "Volvo"; 
+    result = ((num1+num2)*5)/6; //declare result, give it the value of ((num1+num2)*5)/6
+    document.getElementById('jn3').innerHTML ="jn3" + " => " + result +"<br>"+ str;
+    document.getElementById('jn4').innerHTML ="jn4" + " => " + card_Number +", "+ card_number;
+    document.getElementById('jn5').innerHTML ="jn5" + " => " + carName;
+    document.getElementById('jn6').innerHTML ="jn6" + " => " + car_Name;
 }
