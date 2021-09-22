@@ -23,3 +23,12 @@ const mySyntax = () => {
     document.getElementById('jn5').innerHTML ="jn5" + " => " + carName;
     document.getElementById('jn6').innerHTML ="jn6" + " => " + car_Name;
 }
+//Data Types
+const myData_Type = () => {
+    let x, y, z, q ;
+    x = 1;
+    y = 3;
+    z = 1;
+    q = 10 + 2 + "jame" ;
+    document.getElementById('jn5').innerHTML = (z==x) + "<br>" + (z==y) + "<br>" + q ;
+}
