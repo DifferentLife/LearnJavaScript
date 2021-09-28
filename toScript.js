@@ -30,5 +30,25 @@ const myData_Type = () => {
     y = 3;
     z = 1;
     q = 10 + 2 + "jame" ;
-    document.getElementById('jn5').innerHTML = (z==x) + "<br>" + (z==y) + "<br>" + q ;
+    document.getElementById('jn5').innerHTML = 
+    (z==x) + "<br>" + 
+    (z==y) + "<br>" +
+     q + "<br>" + 
+     typeof (3.29 + 5 + "Jame") ;
+}
+//Functions
+const myFunctions = (j, n) => {
+    return document.getElementById('jn6').innerHTML = Math.pow(j, n);
+}
+//Object
+const myObject = () => {
+    const car = {
+        brand:"Toyota", 
+        model:"Fortuner", 
+        color:"two-tone"
+    };
+    document.getElementById('jn7').innerHTML = 
+        "Brand of car is " + car.brand + "<br>" +
+        "model is " + car["model"]
+        ;
 }
